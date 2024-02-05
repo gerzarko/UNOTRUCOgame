@@ -22,10 +22,16 @@ func (m *Mazo)InsertCardInMazo(cardType string,cardNumber int){
 
 
 func (m *Mazo)InitializeDeck(){
-
-
-
-
+    m.InsertCardInMazo("E",1) 
+    m.InsertCardInMazo("E",2) 
+    m.InsertCardInMazo("E",3) 
+    m.InsertCardInMazo("E",4) 
+    m.InsertCardInMazo("E",5) 
+    m.InsertCardInMazo("E",6) 
+    m.InsertCardInMazo("E",7) 
+    m.InsertCardInMazo("E",10) 
+    m.InsertCardInMazo("E",12) 
+    m.InsertCardInMazo("E",12) 
 
 }
 

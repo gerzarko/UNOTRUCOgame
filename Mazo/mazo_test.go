@@ -10,7 +10,7 @@ func TestMazo(t *testing.T) {
 	mazoNuevo := new(Mazo)
 
 	t.Run("test good initialization", func(t *testing.T) {
-        mazoNuevo.InsertCardInMazo("E",10)
+        mazoNuevo.InitializeDeck()
         got := mazoNuevo.FirstCard()
 
         if got.CardType != "E" && got.Numero != 10{
@@ -36,5 +36,7 @@ func TestMazo(t *testing.T) {
 
 
     })
+
+    fmt.Printf("%v ",mazoNuevo)
 
 }
